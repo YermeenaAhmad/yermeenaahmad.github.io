@@ -1,23 +1,29 @@
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f7fa;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1537432376769-00a98eae5d3a?auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 0;
 }
 
 header {
-    background-color: #0077cc;
-    color: white;
     padding: 40px 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     margin: 0;
     font-size: 2.8em;
+    color: #ffffff;
 }
 
 header h2 {
@@ -32,19 +38,20 @@ header p {
     margin: 20px auto 0;
     font-size: 1.1em;
     line-height: 1.6;
+    color: #eeeeee;
 }
 
 section {
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #555;
 }
 
 section h3 {
     font-size: 1.8em;
     margin-bottom: 20px;
-    color: #0077cc;
+    color: #87cefa;
 }
 
 ul {
@@ -54,7 +61,7 @@ ul {
 }
 
 a {
-    color: #0077cc;
+    color: #4fc3f7;
     text-decoration: none;
 }
 
@@ -65,7 +72,7 @@ a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #eef3f7;
-    color: #666;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ccc;
     font-size: 0.9em;
 }
